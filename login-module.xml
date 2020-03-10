@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="login-module">
+
+    <test name="logintest">
+        <parameter name="BROWSER" value="chrome"/>
+        <parameter name="username" value="keph76@gmail.com"/>
+        <parameter name="password" value="holatod2"/>
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest"/>
+        </classes>
+    </test>
+
+    <test name="logintest2">
+        <parameter name="BROWSER" value="firefox"/>
+        <parameter name="username" value="keph76@gmail.com"/>
+        <parameter name="password" value="holatod2"/>
+        <classes>
+            <class name="com.newtours.tests.BookFlightTest"/>
+        </classes>
+    </test>
+</suite>

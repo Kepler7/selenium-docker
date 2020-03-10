@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [login-module]">
+  <test thread-count="5" name="logintest2(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <parameter name="password" value="holatod2"/>
+    <parameter name="username" value="keph76@gmail.com"/>
+    <classes>
+      <class name="com.newtours.tests.BookFlightTest">
+        <methods>
+          <include name="selectDropDown"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.newtours.tests.BookFlightTest -->
+    </classes>
+  </test> <!-- logintest2(failed) -->
+</suite> <!-- Failed suite [login-module] -->
